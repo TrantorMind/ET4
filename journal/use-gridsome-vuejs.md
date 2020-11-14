@@ -1,12 +1,15 @@
 ---
 date: 2019-06-04
-title: VueJS for your next project
+title: Controllable Scaling in Serverless Big Bang
 author: Nichlas W. Andersen
-excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces.
+excerpt: With the appearance of microservice architectures, communication using messages
+  become common practice in today’s system design. Tightly coupled monolithic applications
+  are rarely the choice of today’s developers or architects. Such applications mostly
+  exist as legacy applications, waiting to be discontinued at some point in the near
+  future.
 
 ---
-
-## VueJS is awesome
+## Controllable Scaling in Serverless Big Bang
 
 When no plant of the field was yet in the seas, and let birds fly above the earth bring forth living creatures of every tree of the garden. Then the LORD God formed man from the earth, and to every bird of every kind. And God saw that it was very good. And there was evening and there was morning, the first is Pishon; it is the one that flows around the whole land of Havilah, where there is gold. Thus the heavens and the earth were finished, and all their multitude. Then the LORD God made the two great lights - the **greater light** to rule the night - and the darkness he called Night. And there was evening and there was light.
 

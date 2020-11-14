@@ -33,6 +33,8 @@ fields:
     required: true
     options: []
   label: Author
-  default: Nichlas W. Andersen
+  default: ''
+  showOnly:
+    field: author
 pages:
 - journal/macos-development-environment.md

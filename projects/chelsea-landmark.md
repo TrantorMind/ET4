@@ -1,7 +1,7 @@
 ---
 date: 2019-05-16
 year: 2019
-title: Banana
+title: Coding well
 category: Identity
 thumbnail: "/uploads/nate-grant-qq9lains6ti-unsplash.jpg"
 categories:

@@ -1,5 +1,5 @@
 ---
-thumbnail: ''
+thumbnail: "/uploads/mike-dorner-173502-unsplash.jpg"
 title: IOT
 date: 2019-01-03
 categories:

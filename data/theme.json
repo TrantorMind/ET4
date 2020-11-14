@@ -3,6 +3,6 @@
   "dark_mode": false,
   "site_name": "EquioTech",
   "site_description": "Creative technologist",
-  "hero_title": "<strong>We are AWS experts: Developers, DevOps, Solution Architects  </strong><br>Secure.  Well-architected. Innovative.",
-  "hero_subtitle": "<strong>IOT, DevOps, Security, Big data, Digital Experience, Serverless</strong>"
+  "hero_title": "<strong>We are AWS experts: Developers, DevOps, Solution Architects</strong>",
+  "hero_subtitle": "Secure. Well-architected. Innovative.<strong><br>IOT, DevOps, Security, Big data, Digital Experience, Serverless</strong>"
 }

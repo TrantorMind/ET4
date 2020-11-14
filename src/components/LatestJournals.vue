@@ -36,7 +36,7 @@ export default {
 .latest-journals {
   max-width: 100%;
   margin: 0 2rem;
-  border: 1px solid var(--color-base-1);
+  border: 2px solid var(--color-base-1);
 }
 .latest-journals > .container {
   display: flex;
@@ -48,7 +48,7 @@ export default {
   padding: 2rem;
   transition: background 0.25s ease;
   text-decoration: none;
-  border-bottom: 1px solid var(--color-base-1);
+  border-bottom: 2px solid var(--color-base-1);
 }
 
 .journal:last-of-type {
@@ -69,16 +69,16 @@ export default {
     flex: 0 0 50%;
   }
   .journal:nth-child(1) {
-    border-right: 1px solid var(--color-base-1);
-    border-bottom: 1px solid var(--color-base-1);
+    border-right: 2px solid var(--color-base-1);
+    border-bottom: 2px solid var(--color-base-1);
   }
 
   .journal:nth-child(2) {
-    border-bottom: 1px solid var(--color-base-1);
+    border-bottom: 2px solid var(--color-base-1);
   }
 
   .journal:nth-child(3) {
-    border-right: 1px solid var(--color-base-1);
+    border-right: 2px solid var(--color-base-1);
     border-bottom: 0;
   }
 }

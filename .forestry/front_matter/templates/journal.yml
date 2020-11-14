@@ -29,7 +29,7 @@ fields:
     source:
       type: documents
       section: authors
-      file: 
+      file: authors/marin-r.md
     required: true
     options: []
   label: Author

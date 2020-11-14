@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="latest-journals-heading container">
-        <span class="label">OUR SERVICES:</span>
+        <h2 class="label">OUR SERVICES:</h2>
         </div>
         <div class="latest-journals">
         <div class="container">

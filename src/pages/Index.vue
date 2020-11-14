@@ -3,8 +3,8 @@
     <div class="container">
       <Hero />
       <LatestJournals :journals="$page.journals.edges" />
-      <ProjectsGrid :projects="$page.projects.edges" />
     </div>
+    <ProjectsGrid :projects="$page.projects.edges" />
     <LatestJournals :journals="$page.journals.edges" />
   </Layout>
 </template>

@@ -1,6 +1,6 @@
 ---
 title: ''
-thumb: "/uploads/mike-dorner-173502-unsplash.jpg"
+thumb: "/uploads/nate-grant-qq9lains6ti-unsplash.jpg"
 
 ---
 Super beutiful.

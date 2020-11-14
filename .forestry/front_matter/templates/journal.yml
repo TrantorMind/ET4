@@ -35,3 +35,5 @@ fields:
   label: Author
   default: ''
   hidden: false
+pages:
+- journal/controllable-scaling-in-serverless-big-bang.md

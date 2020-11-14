@@ -1,7 +1,7 @@
 ---
 date: 2020-11-14
-title: From Legacy Application to Serverless With EventBridge
-excerpt: From Legacy Application to Serverless With EventBridge
+title: Migration to Cloud
+excerpt: From legacy migration to Cloud Adoption Framework
 author: ''
 
 ---

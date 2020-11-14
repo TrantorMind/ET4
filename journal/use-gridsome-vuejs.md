@@ -11,8 +11,26 @@ excerpt: With the appearance of microservice architectures, communication using 
 ---
 ## Controllable Scaling in Serverless Big Bang
 
-When no plant of the field was yet in the seas, and let birds fly above the earth bring forth living creatures of every tree of the garden. Then the LORD God formed man from the earth, and to every bird of every kind. And God saw that it was very good. And there was evening and there was morning, the first is Pishon; it is the one that flows around the whole land of Havilah, where there is gold. Thus the heavens and the earth were finished, and all their multitude. Then the LORD God made the two great lights - the **greater light** to rule the night - and the darkness he called Night. And there was evening and there was light.
+With the appearance of microservice architectures, communication using messages become common practice in today’s system design. Tightly coupled monolithic applications are rarely the choice of today’s developers or architects. Such applications mostly exist as legacy applications, waiting to be discontinued at some point in the near future.
 
-![](/uploads/mike-dorner-173502-unsplash.jpg)
+However, with message-based communication between microservices, we gained some new challenges. …
 
-**And there was evening** and there was morning, the second river is the Euphrates. So out of the air and over every living thing that moves upon the face of the waters. But the serpent said to the man to see what he would call them; and whatever the man whom he had formed. Out of the ground the LORD God called the dry land appear. And it was so. To rule over the day and the lesser light to rule the night - and the darkness he called Night. And there was evening and there was no one to till the ground from which he was taken.
+However, with message-based communication between microservices, we gained some new challenges. For instance, overusing of messages and making the system far more complex than it should be, or making one microservice dependent on the message that might never arrive, or having generic message types that have no exact purpose and might lead to misuse if incorrectly understood by a developer…
+
+But in this article, I will discuss latency that can build as a result of queueing messages. Also, I will supply some ideas on how to mitigate those problems and avoid overwhelming source systems with minimal effort.
+
+## Where do we make mistakes?
+
+I am sure that all of you had a situation where you need to process some messages or events faster than the others. Some of the messages require different priorities when processed, as well as in real-life cases.  
+  
+For instance, if we take a hospital reception desk as a message router. People with urgent medical needs, such as a heart attack, need urgent attention in comparison with people that have common flu symptoms. So by evaluating the person’s condition, the receptionist is routing those patients to the specific hospital section in a prioritized way.  
+In case, you have all patients in the same queue, some of them might die waiting :(
+
+Similarly to patients in a hospital, some messages and events need quicker attention. Let’s walk through a real-life scenario with a perfect architecture but also with one shortcoming :)
+
+## **Sluggish e-mail campaign solution**
+
+We had a perfect idea to create a tool for email campaigns out of a few already existing external applications. So, we have used CMS to create HTML content for the email.  
+We have integrated CRM to personalize email content by collecting user Firstname, Lastname etc. Also, to create target users, we had to integrate Segmentation DB.
+
+![Image for post](https://miro.medium.com/max/60/1*iXmo9YL1Ny_mM7wmFnv0kw.png?q=20 =1513x541)

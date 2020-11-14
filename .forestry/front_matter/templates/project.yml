@@ -11,6 +11,15 @@ fields:
   label: Title
   config:
     required: true
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
 - type: datetime
   name: date
   label: Date

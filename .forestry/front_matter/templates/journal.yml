@@ -35,5 +35,3 @@ fields:
   label: Author
   default: ''
   hidden: false
-pages:
-- journal/macos-development-environment.md

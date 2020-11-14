@@ -27,14 +27,16 @@ fields:
   name: author
   config:
     source:
-      type: documents
+      type: simple
       section: authors
-      file: authors/marin-r.md
-    required: true
+      file: 
+    required: false
     options: []
   label: Author
   default: ''
   showOnly:
     field: author
+    value: title
+  hidden: false
 pages:
 - journal/macos-development-environment.md

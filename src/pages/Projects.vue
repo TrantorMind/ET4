@@ -2,22 +2,25 @@
   <Layout>
 
     <div class="container">
-      <div class="journal-hero">
-        <h1 class="journal-header">
-          BUT NOT LIMITED TO...
+      <div class="projects-hero">
+        <h1 class="projects-header">
+          OUT PROJECT PORTFOLIO
         </h1>
       </div>
     </div>
 
-    <g-link 
-      :to="item.node.path"
-      v-for="item in $page.posts.edges" 
-      :key="item.node.id"
-      class="journal-post"
-    >
-      <div class="container journal">
-        <h2 class="journal-title">{{ item.node.title }}</h2>
-        <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+    <g-link :to="item.node.path" v-for="item in $page.posts.edges" :key="item.node.id"
+      class="projects-post">
+      <div class="container projects">
+       
+        <h2 class="project-title">{{ item.node.title }}</h2>
+        <p class="project-excerpt">{{ item.node.excerpt }}</p>
+        <g-image
+                :src="item.node.thumbnail"
+                :alt="item.node.title"
+                class="thumbnail"
+        />
+        
       </div>
     </g-link>
       
@@ -25,12 +28,13 @@
 </template>
 
 <page-query>
-query Journal {
-	posts: allJournalPost {
+query Project {
+	posts: allProjectPost {
     edges {
       node {
         id
         path
+        thumbnail
         title
         excerpt
       }
@@ -45,56 +49,65 @@ export default {
 </script>
 
 <style scoped>
-.container.journal {
-  max-width: 720px;
+.container.projects {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+  /* max-width: 720px;*/
 }
-.journal-hero {
+.projects-hero {
   padding: 4rem 0;
   text-align: center;
   color: var(--color-base-1);
 }
-.journal-header {
+.projects-header {
   font-size: 3rem;
   font-weight: 700;
   padding: 0;
   margin: 0;
 }
-.journal-post {
+.projects-post {
   display: block;
   padding: 2rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
 }
-.journal-post > * {
+.projects-post > * {
   transition: transform 0.5s ease;
 }
-.journal-post:hover {
+.projects-post:hover {
   background-color: var(--color-base-1);
 }
-.journal-post:hover > * {
+.projects-post:hover > * {
   transform: translateX(4rem);
 }
-.journal-post h1,
-.journal-post h2 {
+.thumbnail {
+  height: 320px;
+  object-fit: cover;
+  transition: all 0.15s ease;
+  box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
+}
+.projects-post h1,
+.projects-post h2 {
   margin: 0;
   padding: 0;
 }
-.journal-title {
+.project-title {
   font-size: 2rem;
   color: var(--color-contrast);
 }
-.journal-excerpt {
+.project-excerpt {
   color: var(--color-contrast-1);
 }
 
 @media (min-width: 560px) {
-  .journal-post {
+  .projects-post {
     padding: 3rem 0;
   }
 }
 
 @media (min-width: 860px) {
-  .journal-post {
+  .projects-post {
     padding: 5rem 0;
   }
 }

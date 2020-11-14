@@ -1,6 +1,7 @@
 ---
 thumbnail: "/uploads/nate-grant-qq9lains6ti-unsplash.jpg"
 title: IOT
+excerpt: From legacy migration to Cloud Adoption Framework
 date: 2019-01-03
 categories:
 - IOT

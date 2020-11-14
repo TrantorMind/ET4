@@ -19,4 +19,5 @@ fields:
   name: twitter
   label: Twitter
 pages:
+- authors/francesco-c.md
 - authors/marin-r.md

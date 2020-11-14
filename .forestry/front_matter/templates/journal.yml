@@ -27,7 +27,7 @@ fields:
   name: author
   config:
     source:
-      type: simple
+      type: pages
       section: authors
       file: 
     required: false

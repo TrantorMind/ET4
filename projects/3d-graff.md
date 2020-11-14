@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/alexandru-acea-wbyxmw4yuw-unsplash.jpg"
-title: Ice Cream
+title: Work smart
 date: 2019-01-04
 categories:
 - photography

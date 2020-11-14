@@ -7,7 +7,7 @@ categories:
 - IOT
 - AWS
 project_bg_color: ''
-project_fg_color: ''
+project_fg_color: "#19EA07"
 
 ---
 ![](/uploads/nate-grant-qq9lains6ti-unsplash.jpg)

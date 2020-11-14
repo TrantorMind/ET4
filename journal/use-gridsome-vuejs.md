@@ -32,5 +32,3 @@ Similarly to patients in a hospital, some messages and events need quicker atten
 
 We had a perfect idea to create a tool for email campaigns out of a few already existing external applications. So, we have used CMS to create HTML content for the email.  
 We have integrated CRM to personalize email content by collecting user Firstname, Lastname etc. Also, to create target users, we had to integrate Segmentation DB.
-
-![Image for post](https://miro.medium.com/max/60/1*iXmo9YL1Ny_mM7wmFnv0kw.png?q=20 =1513x541)

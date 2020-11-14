@@ -34,9 +34,6 @@ fields:
     options: []
   label: Author
   default: ''
-  showOnly:
-    field: author
-    value: title
   hidden: false
 pages:
 - journal/macos-development-environment.md

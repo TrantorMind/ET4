@@ -20,9 +20,9 @@ Anything and everything, regardless of incomprehensibility! We understand that i
 The missing package manager for macOS
 
     $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+    
     $ brew install node
-
+    
     $ node -v
       v12.13.1
 

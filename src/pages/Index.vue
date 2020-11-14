@@ -2,6 +2,7 @@
   <Layout>
     <div class="container">
       <Hero />
+      <LatestJournals :journals="$page.journals.edges" />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
     <LatestJournals :journals="$page.journals.edges" />
@@ -42,6 +43,7 @@ import LatestJournals from "@/components/LatestJournals"
 export default {
   components: {
     Hero,
+    LatestJournals,
     ProjectsGrid,
     LatestJournals
   }

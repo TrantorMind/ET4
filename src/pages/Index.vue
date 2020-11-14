@@ -4,7 +4,9 @@
       <Hero />
       <LatestJournals :journals="$page.journals.edges" />
     </div>
-    <ProjectsGrid :projects="$page.projects.edges" />
+    <div class="container">
+      <ProjectsGrid :projects="$page.projects.edges" />
+    </div>
     <LatestJournals :journals="$page.journals.edges" />
   </Layout>
 </template>

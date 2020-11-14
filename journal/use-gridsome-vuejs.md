@@ -1,7 +1,7 @@
 ---
 date: 2019-06-04
 title: Controllable Scaling in Serverless Big Bang
-author: Nichlas W. Andersen
+author: title
 excerpt: With the appearance of microservice architectures, communication using messages
   become common practice in today’s system design. Tightly coupled monolithic applications
   are rarely the choice of today’s developers or architects. Such applications mostly

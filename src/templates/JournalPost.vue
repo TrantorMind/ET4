@@ -30,6 +30,8 @@ query JournalPost ($path: String!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
+    background_color
+    foreground_color
   }
 }
 </page-query>
@@ -43,7 +45,11 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
+      bodyAttrs: {
+        style: `background-color: ${this.$page.post.background_color ? this.$page.post.background_color : 'var(--color-base)'}; color: ${this.$page.post.foreground_color ? this.$page.post.foreground_color : 'var(--color-contrast)'}`
+      }
+
     }
   }
 }

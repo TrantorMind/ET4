@@ -45,9 +45,3 @@ fields:
   config:
     required: false
     color_format: Hex
-pages:
-- journal/controllable-scaling-in-serverless-big-bang.md
-- journal/devops-automation.md
-- journal/from-legacy-application-to-serverless-with-eventbridge.md
-- journal/iot-patform.md
-- journal/machine-learning.md

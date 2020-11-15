@@ -17,7 +17,7 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
-  - project
+  - services
 - type: directory
   path: journal
   label: Services

@@ -4,7 +4,7 @@
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/ETonly_bnw.svg"
+                        src="../../static/ETonly_gray.svg"
                         :alt="settings.site_name" 
                         class="logo"
                     />
@@ -23,7 +23,7 @@
 export default {
   data() {
     return {
-        logo: require("../../static/ETonly_bnw.svg"),
+        logo: require("../../static/ETonly_gray.svg"),
         settings: require("../../data/theme.json")
     }
   }
@@ -52,7 +52,7 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 1.5rem;
+    height: 2.5rem;
 }
 .site-name {
     font-size: 0.9rem;

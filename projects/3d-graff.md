@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/alexandru-acea-wbyxmw4yuw-unsplash.jpg"
-title: Work smart 2
+title: Tribu - Hunterstrail
 excerpt: From legacy migration to Cloud Adoption Framework
 date: 2019-01-04
 categories:

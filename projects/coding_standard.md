@@ -10,7 +10,7 @@ categories:
 - standards
 - unit-test
 project_bg_color: ''
-project_fg_color: "#FC0808"
+project_fg_color: "#555555"
 
 ---
 Writing code

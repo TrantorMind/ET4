@@ -2,6 +2,9 @@
     <div class="hero">
         <h1 class="hero-title" v-html="settings.hero_title" />
         <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+        <div class="cta"> 
+           <button class="button">Read more</button>
+        </div>
     </div>
 </template>
 
@@ -42,5 +45,25 @@ export default {
     padding: 0;
     margin: 0;
     opacity: 0.6;
+}
+.button {
+  color: var(--color-base);
+  background: var(--color-contrast);
+  outline: none;
+  border: 0;
+  font-size: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+  font-size: 500;
+  letter-spacing: 0.035em;
+}
+.button:hover {
+  opacity: 0.6;
+}
+.button:focus {
+  border: 1px solid var(--color-base-1);
 }
 </style>

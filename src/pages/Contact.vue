@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="contact-header">
-        <h1 class="contact-title">Need a solution on AWS, EquioTech would like to speak with you!</h1>
+        <h1 class="contact-title">We dont just talk, we are makers! <br> Do you need a solution on AWS? <br>Contact us!</h1>
         <p>Leave me a note with any questions you might have, We will get back to you as soon as possible.</p>
       </div>
 

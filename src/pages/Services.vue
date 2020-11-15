@@ -4,7 +4,8 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          BUT NOT LIMITED TO...
+         It is not just BLACK and WHITE. <br>
+         Discover our services: 
         </h1>
       </div>
     </div>
@@ -19,7 +20,15 @@
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
       </div>
-    </g-link>
+      </g-link>
+
+    <div class="container">
+      <div class="journal-hero">
+        <h2 class="journal-header">
+         ...but not limited to.
+        </h2>
+      </div>
+    </div>
       
   </Layout>
 </template>

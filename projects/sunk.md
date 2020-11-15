@@ -6,8 +6,8 @@ date: 2019-02-06
 categories:
 - smart
 - sight
-project_bg_color: "#EDEDED"
-project_fg_color: "#36B5EF"
+project_bg_color: "#9B9B9B"
+project_fg_color: "#FFFFFF"
 
 ---
 ![](/uploads/jesus-kiteque-wn-kyahwcis-unsplash.jpg)

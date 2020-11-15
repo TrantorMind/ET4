@@ -23,6 +23,7 @@ fields:
     time_format: ''
     export_format: YYYY-MM-DD
   default: now
+  hidden: true
 pages:
 - journal/controllable-scaling-in-serverless-big-bang.md
 - journal/from-legacy-application-to-serverless-with-eventbridge.md

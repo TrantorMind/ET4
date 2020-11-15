@@ -23,3 +23,20 @@ fields:
 - type: text
   name: project_fg_color
   label: project_fg_color
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - FC
+    - MR
+    - SS
+    - MM
+    - GK
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author

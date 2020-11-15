@@ -12,7 +12,7 @@ sections:
   templates:
   - services
 - type: directory
-  path: cases
+  path: projects
   label: Cases
   create: documents
   match: "**/*.md"

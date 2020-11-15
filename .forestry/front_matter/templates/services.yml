@@ -13,5 +13,3 @@ fields:
     required: false
   label: Title
   description: Add title here
-pages:
-- services/IOT Boilerplate + DevOps.md

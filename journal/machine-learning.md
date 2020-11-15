@@ -7,6 +7,6 @@ tags:
 - sagemaker
 - phyton
 background_color: "#50E3C2"
-foreground_color: ''
+foreground_color: "#FFFFFF"
 
 ---

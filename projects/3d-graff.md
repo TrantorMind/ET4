@@ -6,7 +6,7 @@ date: 2019-01-04
 categories:
 - working from home
 project_bg_color: ''
-project_fg_color: "#ffffff"
+project_fg_color: "#FFFFFF"
 
 ---
 ![](/uploads/alexandru-acea-wbyxmw4yuw-unsplash.jpg)

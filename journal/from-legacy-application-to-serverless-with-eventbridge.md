@@ -6,7 +6,7 @@ author: ''
 thumb: ''
 tags:
 - migration
-background_color: "#9B9B9B"
+background_color: "#F5A623"
 foreground_color: "#FFFFFF"
 
 ---

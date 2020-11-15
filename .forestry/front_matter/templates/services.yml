@@ -13,3 +13,5 @@ fields:
     required: false
   label: Title
   description: Add title here
+pages:
+- articles/the-dark-side-of-cloud.md

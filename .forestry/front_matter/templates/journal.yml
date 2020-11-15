@@ -45,3 +45,5 @@ fields:
   config:
     required: false
     color_format: Hex
+pages:
+- journal/cloud-security-audit.md

@@ -8,7 +8,7 @@ sections:
   path: articles
   label: Articles
   create: all
-  match: "**/*"
+  match: "**/*.md"
   templates:
   - articles
 - type: directory

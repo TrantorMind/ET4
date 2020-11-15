@@ -4,7 +4,7 @@
     <div class="container">
       <div class="projects-hero">
         <h1 class="projects-header">
-          OUT PROJECT PORTFOLIO
+          OUR PROJECT PORTFOLIO
         </h1>
       </div>
     </div>

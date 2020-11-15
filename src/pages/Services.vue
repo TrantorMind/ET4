@@ -58,8 +58,8 @@ export default {
   max-width: 720px;
 }
 .journal-hero {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 1rem 0;
+  text-align: left;
   color: black;
 }
 .journal-header {
@@ -70,7 +70,8 @@ export default {
 }
 .journal-post {
   display: block;
-  padding: 2rem 0;
+  max-block-size: 400px;
+  padding: 3rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
 }
@@ -98,13 +99,13 @@ export default {
 
 @media (min-width: 560px) {
   .journal-post {
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 }
 
 @media (min-width: 860px) {
   .journal-post {
-    padding: 5rem 0;
+    padding: 1rem 0;
   }
 }
 </style>

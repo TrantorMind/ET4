@@ -2,10 +2,13 @@
   <Layout>
     <div class="container">
       <Hero />
-      <LatestJournals :journals="$page.journals.edges" />
     </div>
+ 
     <div class="container">
       <ProjectsGrid :projects="$page.projects.edges" />
+    </div>
+     <div class="container">
+      <LatestJournals :journals="$page.journals.edges" />
     </div>
   </Layout>
 </template>
